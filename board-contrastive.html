@@ -83,17 +83,23 @@
   <div class="tile-container">
     <a id="big-tile-link" class="big-tile">Contrastive</a>
     <div class="small-tile-container">
-      <a class="small-tile">Spatial-temporal learning</a>
-      <a class="small-tile">Fine-graind Feature Learning</a>
-      <a class="small-tile">Processing Video Frames</a>
-      <a class="small-tile">Need of Domain Knowledge</a>
-      <a class="small-tile">Novel Pretext Tasks</a>
+      <a class="small-tile">Temporal Modelling and Semantic Dependencies</a>
+      <a class="small-tile">Background Bias</a>
+      <a class="small-tile">Temporal Coherence</a>
+      <a class="small-tile">Drawbacks in Contrastive Learning</a>
+      <a class="small-tile">Preserving Privacy</a>
 
-      <a class="small-tile">temp1</a>
-      <a class="small-tile">temp2</a>
-      <a class="small-tile">temp3</a>
-      <a class="small-tile">temp4</a>
-      <a class="small-tile">temp5</a>
+      <a class="small-tile">Use of trimmed data</a>
+      <a class="small-tile">Utilizing spatial and temporal cues</a>
+      <a class="small-tile">Holistic and local representations</a>
+      <a class="small-tile">Learning view-invariant sensory representations</a>
+      <a class="small-tile">Using realistic data augmentation techniques</a>
+
+      <a class="small-tile">Applying deep unsupervised embeddings</a>
+      <a class="small-tile">Learning from Frames and Videos</a>
+      <a class="small-tile">Utilizing motion information</a>
+      <a class="small-tile">Creating a universal objective for different frameworks</a>
+      <a class="small-tile">Using Visual Tempo</a>
     </div>
   </div>
 
@@ -102,8 +108,22 @@
     var baseURL = 'https://sites.google.com/view/sslinvideos-test/'; // Replace with the host URL
     var htmltag ='.html';
     // Example dynamic page paths for the tiles
-    var bigTilePath = 'Generative';
-    var smallTilePaths = ['Spatio-Temporal-Learning', 'Fine-graind-Feature-Learning', 'Processing-Video-Frames', 'Need-of-Domain-Knowledge', 'Novel-Pretext-Tasks','Spatio-Temporal-Learning', 'Fine-graind-Feature-Learning', 'Processing-Video-Frames', 'Need-of-Domain-Knowledge', 'Novel-Pretext-Tasks'];
+    var bigTilePath = 'Contrastive';
+    var smallTilePaths = ['Temporal-Modelling-and-Semantic-Dependencies', 
+  'Background-Bias',
+  'Temporal-Coherence',
+'Drawbacks-in-Contrastive-Learning',
+'Preserving-Privacy',
+'Use-of-trimmed-data',
+'Utilizing-spatial-and-temporal-cues',
+'Holistic-and-local-representations',
+'Learning-view-invariant-sensory-representations',
+'Using-realistic-data-augmentation-techniques',
+'Applying-deep-unsupervised-embeddings',
+'Learning-from-Frames-and-Videos',
+'Utilizing-motion-information',
+'Creating-a-universal-objective-for-different-frameworks',
+'Using-Visual-Tempo'];
 
     // Set the href values dynamically
     document.getElementById('big-tile-link').setAttribute('href', baseURL + bigTilePath);
