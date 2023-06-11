@@ -83,17 +83,11 @@
   <div class="tile-container">
     <a id="big-tile-link" class="big-tile">Multi - Modal</a>
     <div class="small-tile-container">
-      <a class="small-tile">Spatial-temporal learning</a>
-      <a class="small-tile">Fine-graind Feature Learning</a>
-      <a class="small-tile">Processing Video Frames</a>
-      <a class="small-tile">Need of Domain Knowledge</a>
-      <a class="small-tile">Novel Pretext Tasks</a>
+      <a class="small-tile">Representations learning from Audio and Video</a>
+      <a class="small-tile">Misalignment between Audio and Video</a>
+      <a class="small-tile">Representations learning from Video and Text</a>
+      <a class="small-tile">Representations learning from Audio, Video and Text</a>
 
-      <a class="small-tile">temp1</a>
-      <a class="small-tile">temp2</a>
-      <a class="small-tile">temp3</a>
-      <a class="small-tile">temp4</a>
-      <a class="small-tile">temp5</a>
     </div>
   </div>
 
@@ -102,8 +96,11 @@
     var baseURL = 'https://sites.google.com/view/sslinvideos-test/'; // Replace with the host URL
     var htmltag ='.html';
     // Example dynamic page paths for the tiles
-    var bigTilePath = 'Generative';
-    var smallTilePaths = ['Spatio-Temporal-Learning', 'Fine-graind-Feature-Learning', 'Processing-Video-Frames', 'Need-of-Domain-Knowledge', 'Novel-Pretext-Tasks','Spatio-Temporal-Learning', 'Fine-graind-Feature-Learning', 'Processing-Video-Frames', 'Need-of-Domain-Knowledge', 'Novel-Pretext-Tasks'];
+    var bigTilePath = 'Multi-modal';
+    var smallTilePaths = ['Representations-learning-from-Audio-and-Video',
+                          'Misalignment-between-Audio-and-Video',
+                          'Representations-learning-from-Video-and-Text',
+                          'Representations-learning-from-Audio-Video-and-Text'];
 
     // Set the href values dynamically
     document.getElementById('big-tile-link').setAttribute('href', baseURL + bigTilePath);
